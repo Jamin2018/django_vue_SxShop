@@ -28,7 +28,7 @@ class UserFav(models.Model):
         return str(self.user.name)
 
 
-class UserLeavingMesage(models.Model):
+class UserLeavingMessage(models.Model):
     '''
     用户留言
     '''
