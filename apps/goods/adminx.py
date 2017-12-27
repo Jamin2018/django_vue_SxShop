@@ -7,12 +7,17 @@ from .models import Goods, GoodsCategory, GoodsImage, GoodsCategoryBrand, Banner
 from .models import IndexAd
 
 class GoodsAdmin(object):
+    #商品列表
     list_display = ["name", "click_num", "sold_num", "fav_num", "goods_num", "market_price",
                     "shop_price", "goods_brief", "goods_desc", "is_new", "is_hot", "add_time"]
+    #搜索栏
     search_fields = ['name', ]
-    list_editable = ["is_hot", ]
+    #商品是否可编辑
+    list_editable = ["is_hot",'is_new','click_num' ]
+    #过滤器（筛选器）
     list_filter = ["name", "click_num", "sold_num", "fav_num", "goods_num", "market_price",
                    "shop_price", "is_new", "is_hot", "add_time", "category__name"]
+
     style_fields = {"goods_desc": "ueditor"}
 
     class GoodsImagesInline(object):

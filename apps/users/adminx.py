@@ -12,7 +12,7 @@ class BaseSetting(object):
 
 class GlobalSettings(object):
     site_title = "生鲜电商后台"
-    site_footer = "SxShop"
+    site_footer = "Jamin"
     # menu_style = "accordion"
 
 

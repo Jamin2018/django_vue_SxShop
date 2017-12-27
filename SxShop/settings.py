@@ -47,6 +47,10 @@ INSTALLED_APPS = [
     'user_operation',
     'xadmin',
     'crispy_forms',
+    #DRF配置
+    'rest_framework',
+    #精确搜索
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -137,3 +141,14 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# # DRf分页 配合 第四版简单分页，深度分页不需要设置这个
+# REST_FRAMEWORK = {
+#     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+#     'PAGE_SIZE': 10,
+# }
+
+#精确搜索
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',)
+}
