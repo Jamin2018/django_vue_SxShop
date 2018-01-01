@@ -18,16 +18,17 @@ class ShoppingCart(models.Model):
     # user = models.ForeignKey(UserProfile)
     user = models.ForeignKey(User, verbose_name=u'用户')
     goods = models.ForeignKey(Goods, verbose_name=u'商品')
-    goods_num = models.IntegerField(default=0, verbose_name='购买数量')
+    nums = models.IntegerField(default=0, verbose_name='购买数量')
 
     add_time = models.DateTimeField(default=datetime.now, verbose_name='添加时间')
 
     class Meta:
         verbose_name = '购物车'
         verbose_name_plural = verbose_name
+        unique_together = ('user','goods')
 
     def __str__(self):
-        return '%s(%d)'.format(self.goods.name, self.goods_num)
+        return '%s(%d)'.format(self.goods.name, self.nums)
 
 
 class OrderInfo(models.Model):
@@ -37,7 +38,7 @@ class OrderInfo(models.Model):
     ORDER_STATUS = (
         ('success','成功'),
         ('cancel','取消'),
-        ('cancel','待支付'),
+        ('paying','待支付'),
     )
 
     # PAY_TYPE = (
@@ -46,10 +47,10 @@ class OrderInfo(models.Model):
     # )
 
     user = models.ForeignKey(User, verbose_name=u'用户')
-    order_sn = models.CharField(max_length=30, unique=True, verbose_name='订单号')
+    order_sn = models.CharField(null=True,max_length=30, unique=True, verbose_name='订单号')
     # nonce_str = models.CharField(max_length=50, null=True, blank=True, verbose_name=u'')
     trade_no = models.CharField(max_length=100,unique=True, null=True, blank=True, verbose_name='支付宝订单号')
-    pay_status = models.CharField(choices=ORDER_STATUS, max_length=10, verbose_name='订单状态')
+    pay_status = models.CharField(choices=ORDER_STATUS, default='paying',max_length=10, verbose_name='订单状态')
     post_script = models.CharField(max_length=200, verbose_name='订单留言')
     order_mount = models.FloatField(default=0.0, verbose_name='订单金额')
     pay_time = models.DateTimeField(null=True, blank=True, verbose_name='支付时间')
@@ -73,7 +74,7 @@ class OrderGoods(models.Model):
     '''
     订单详情
     '''
-    order = models.ForeignKey(OrderInfo, verbose_name='订单信息')
+    order = models.ForeignKey(OrderInfo, verbose_name='订单信息',related_name='goods')
     goods = models.ForeignKey(Goods, verbose_name='商品')
     goods_num = models.IntegerField(default=0, verbose_name='商品数量')
 

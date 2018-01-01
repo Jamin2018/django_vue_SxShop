@@ -2,19 +2,326 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b40d7e0-37ae-47cc-ba5b-b5948c702448" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/filters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/migrations/0004_auto_20171227_2056.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/serializers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/views_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/migrations/0005_auto_20171228_1837.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/migrations/0006_goodscategorybrand_category.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/trade/migrations/0003_auto_20171230_2056.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/trade/migrations/0004_auto_20171230_2114.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/trade/migrations/0005_auto_20171231_0044.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/trade/migrations/0006_auto_20171231_0048.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/trade/migrations/0007_auto_20171231_0054.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/trade/migrations/0008_auto_20171231_0058.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/trade/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/user_operation/migrations/0004_auto_20171228_2349.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/user_operation/migrations/0005_auto_20171230_1852.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/user_operation/migrations/0006_auto_20171230_2006.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/user_operation/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20171229_2104.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/users/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/permissions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/weibo_login.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/actions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/amazon.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/angel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/aol.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/appsfuel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/arcgis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/asana.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/azuread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/azuread_tenant.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/battlenet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/beats.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/behance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/belgiumeid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/bitbucket.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/box.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/bungie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/changetip.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/chatwork.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/classlink.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/clef.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coinbase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/coursera.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dailymotion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/deezer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/digitalocean.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/disqus.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/docker.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/douban.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dribbble.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/drip.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/dropbox.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/echosign.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/edmodo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/email.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/eventbrite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/eveonline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/evernote.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/exacttarget.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/facebook.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/fedora.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/fitbit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/five_hundred_px.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/flickr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/foursquare.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/gae.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/github.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/github_enterprise.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/gitlab.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/goclio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/goclioeu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/google.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/google_openidconnect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/instagram.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/itembase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/jawbone.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/justgiving.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/kakao.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/khanacademy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/lastfm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/launchpad.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/legacy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/line.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/linkedin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/live.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/livejournal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/loginradius.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/lyft.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mailchimp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mailru.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mapmyfitness.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mediawiki.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/meetup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mendeley.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/microsoft.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mineid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/mixcloud.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/monzo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/moves.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/nationbuilder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/naver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/ngpvan.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/nk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/oauth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/odnoklassniki.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/open_id.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/open_id_connect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/openshift.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/openstreetmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/orbi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/orcid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/patreon.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/persona.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pinterest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pixelpin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pocket.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/podio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/professionali.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/pushbullet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/qiita.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/qq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/quizlet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/rdio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/readability.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/reddit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/runkeeper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/salesforce.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/saml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/shimmering.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/shopify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/sketchfab.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/skyrock.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/slack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/soundcloud.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/spotify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stackoverflow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/steam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stocktwits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/strava.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/stripe.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/suse.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/taobao.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/thisismyjam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/trello.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/tripit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/tumblr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twilio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twitch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/twitter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/uber.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/ubuntu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/udata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/untappd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/upwork.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/username.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vend.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vimeo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/vk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/weibo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/weixin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/withings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/wunderlist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/xing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yahoo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yammer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/yandex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/backends/zotero.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/debug.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/disconnect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/mail.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/partial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/social_auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/pipeline/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/storage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/store.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/strategy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/actions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_associate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_disconnect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/actions/test_login.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/data/saml_response.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/legacy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/oauth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/open_id.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/open_id_connect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_amazon.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_angel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_arcgis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_asana.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_azuread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_behance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_bitbucket.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_box.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_broken.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_chatwork.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_clef.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_coinbase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_coursera.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dailymotion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_deezer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_digitalocean.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_disqus.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dribbble.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_drip.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dropbox.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_dummy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_edmodo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_email.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_evernote.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_facebook.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_fitbit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_five_hundred_px.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_flickr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_foursquare.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_github.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_github_enterprise.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_gitlab.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_google.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_instagram.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_itembase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_kakao.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_khanacademy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_linkedin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_live.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_livejournal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_lyft.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mapmyfitness.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mineid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_mixcloud.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_nationbuilder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_naver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_ngpvan.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_orbi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_patreon.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_pinterest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_podio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_qiita.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_quizlet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_readability.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_reddit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_saml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_sketchfab.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_skyrock.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_slack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_soundcloud.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_spotify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stackoverflow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_steam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stocktwits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_strava.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_stripe.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_taobao.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_thisismyjam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_tripit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_tumblr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_twitch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_twitter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_uber.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_udata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_upwork.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_username.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_vk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_wunderlist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_xing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yahoo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yammer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_yandex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/backends/test_zotero.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/pipeline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-base.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-pypy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-python2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements-python3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/strategy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_partial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_pipeline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_storage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/test_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/tests/testkey.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/social_core/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_apps/扩展app简介" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/db_tools/data/import_goods_data.py" afterPath="$PROJECT_DIR$/apps/db_tools/import_goods_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f70a7158-fef3-455f-a347-9aeae7210b68/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/f70a7158-fef3-455f-a347-9aeae7210b68/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f70a7158-fef3-455f-a347-9aeae7210b68/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/f70a7158-fef3-455f-a347-9aeae7210b68/_metadata_/metadata.values.at" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f70a7158-fef3-455f-a347-9aeae7210b68.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/f70a7158-fef3-455f-a347-9aeae7210b68.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SxShop/settings.py" afterPath="$PROJECT_DIR$/SxShop/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SxShop/urls.py" afterPath="$PROJECT_DIR$/SxShop/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/__init__.py" afterPath="$PROJECT_DIR$/apps/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/goods/adminx.py" afterPath="$PROJECT_DIR$/apps/goods/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/goods/filters.py" afterPath="$PROJECT_DIR$/apps/goods/filters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/goods/models.py" afterPath="$PROJECT_DIR$/apps/goods/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/goods/serializers.py" afterPath="$PROJECT_DIR$/apps/goods/serializers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/goods/views.py" afterPath="$PROJECT_DIR$/apps/goods/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/trade/models.py" afterPath="$PROJECT_DIR$/apps/trade/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/trade/views.py" afterPath="$PROJECT_DIR$/apps/trade/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/user_operation/adminx.py" afterPath="$PROJECT_DIR$/apps/user_operation/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/user_operation/apps.py" afterPath="$PROJECT_DIR$/apps/user_operation/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/user_operation/models.py" afterPath="$PROJECT_DIR$/apps/user_operation/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/user_operation/signals.py" afterPath="$PROJECT_DIR$/apps/user_operation/signals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/user_operation/views.py" afterPath="$PROJECT_DIR$/apps/user_operation/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/apps.py" afterPath="$PROJECT_DIR$/apps/users/apps.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/signals.py" afterPath="$PROJECT_DIR$/apps/users/signals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +332,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SxShop$import_category_data.coverage" NAME="import_category_data Coverage Results" MODIFIED="1514306293680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/db_tools" />
+    <SUITE FILE_PATH="coverage/SxShop$sentry_test.coverage" NAME="sentry_test Coverage Results" MODIFIED="1514724528726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/SxShop$import_goods_data.coverage" NAME="import_goods_data Coverage Results" MODIFIED="1514308022140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/db_tools/data" />
+    <SUITE FILE_PATH="coverage/SxShop$yunpian.coverage" NAME="yunpian Coverage Results" MODIFIED="1514546896002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/utils" />
     <SUITE FILE_PATH="coverage/SxShop$views_base.coverage" NAME="views_base Coverage Results" MODIFIED="1514371165228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/goods" />
   </component>
   <component name="DatabaseView">
@@ -53,74 +362,114 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49307036">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SxShop/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#640#680#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="filters.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/apps/goods/filters.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#24#45#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="65" column="4" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SxShop/settings.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="522">
-                  <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="454">
-                  <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                    <element signature="e#585#610#0" expanded="false" />
-                    <element signature="e#2881#2925#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="扩展app简介" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/扩展app简介">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="64" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/user_operation/adminx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="65" />
+              <folding>
+                <element signature="e#42#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SxShop/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4446">
+              <caret line="248" column="1" lean-forward="false" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/social_core/actions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1692">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="106" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sentry_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/sentry_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="97" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SxShop/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1656">
+              <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+              <folding>
+                <element signature="e#640#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,29 +478,54 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2_P_1448945810814.jpg</find>
+      <find>UEditorField</find>
+      <find>userfavs</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/trade/models.py" />
         <option value="$PROJECT_DIR$/apps/db_tools/import_category_data.py" />
         <option value="$PROJECT_DIR$/apps/db_tools/data/import_goods_data.py" />
-        <option value="$PROJECT_DIR$/apps/user_operation/models.py" />
-        <option value="$PROJECT_DIR$/apps/goods/adminx.py" />
         <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/apps/__init__.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/__init__.py" />
         <option value="$PROJECT_DIR$/apps/goods/views_base.py" />
         <option value="$PROJECT_DIR$/apps/goods/serializer.py" />
-        <option value="$PROJECT_DIR$/apps/goods/models.py" />
+        <option value="$PROJECT_DIR$/apps/utils/yunpian.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/apps/goods/serializers.py" />
-        <option value="$PROJECT_DIR$/SxShop/urls.py" />
-        <option value="$PROJECT_DIR$/SxShop/settings.py" />
+        <option value="$PROJECT_DIR$/apps/users/signals.py" />
+        <option value="$PROJECT_DIR$/apps/utils/permissions.py" />
+        <option value="$PROJECT_DIR$/apps/users/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/models.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/trade/serializer.py" />
+        <option value="$PROJECT_DIR$/apps/trade/models.py" />
+        <option value="$PROJECT_DIR$/apps/trade/serializers.py" />
         <option value="$PROJECT_DIR$/apps/goods/filters.py" />
+        <option value="$PROJECT_DIR$/apps/goods/models.py" />
+        <option value="$PROJECT_DIR$/apps/goods/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/goods/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/signals.py" />
+        <option value="$PROJECT_DIR$/apps/trade/views.py" />
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/apps/utils/weibo_login.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/apps.py" />
+        <option value="$PROJECT_DIR$/apps/users/apps.py" />
+        <option value="$PROJECT_DIR$/extra_apps/扩展app简介" />
+        <option value="$PROJECT_DIR$/SxShop/urls.py" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/extra_apps/social_core/actions.py" />
+        <option value="$PROJECT_DIR$/tests/sentry_test.py" />
+        <option value="$PROJECT_DIR$/SxShop/settings.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/views.py" />
       </list>
     </option>
   </component>
@@ -168,11 +542,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="872" />
-    <option name="y" value="49" />
-    <option name="width" value="1081" />
-    <option name="height" value="942" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -206,8 +580,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,29 +598,27 @@
               <item name="SxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="SxShop" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="user_operation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="SxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="trade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="SxShop" type="462c0819:PsiDirectoryNode" />
               <item name="SxShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,19 +627,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JamBlog" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../online-store" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\SxShop\apps\users" />
-      <recent name="C:\Users\Administrator\Desktop\SxShop\apps\user_operation" />
-      <recent name="C:\Users\Administrator\Desktop\SxShop\apps\trade" />
-      <recent name="C:\Users\Administrator\Desktop\SxShop\apps\goods" />
       <recent name="C:\Users\Administrator\Desktop\SxShop\extra_apps" />
+      <recent name="C:\Users\Administrator\Desktop\SxShop\static" />
+      <recent name="C:\Users\Administrator\Desktop\SxShop\templates" />
+      <recent name="C:\Users\Administrator\Desktop\SxShop\apps\utils" />
+      <recent name="C:\Users\Administrator\Desktop\SxShop\media\goods\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\SxShop\apps\db_tools" />
       <recent name="C:\Users\Administrator\Desktop\SxShop\apps\goods" />
       <recent name="C:\Users\Administrator\Desktop\SxShop\apps" />
     </key>
@@ -284,7 +657,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.SxShop">
+  <component name="RunManager" selected="Python.sentry_test">
     <configuration name="SxShop" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,7 +712,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SxShop" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/db_tools/data/import_goods_data.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\SxShop\apps\db_tools\import_goods_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sentry_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SxShop" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/sentry_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,17 +753,39 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <configuration name="yunpian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SxShop" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/utils/yunpian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.SxShop" />
       <item index="1" class="java.lang.String" itemvalue="Python.import_category_data" />
       <item index="2" class="java.lang.String" itemvalue="Python.import_goods_data" />
       <item index="3" class="java.lang.String" itemvalue="Python.views_base" />
+      <item index="4" class="java.lang.String" itemvalue="Python.yunpian" />
+      <item index="5" class="java.lang.String" itemvalue="Python.sentry_test" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.views_base" />
-        <item index="1" class="java.lang.String" itemvalue="Python.import_goods_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.import_category_data" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.sentry_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.yunpian" />
+        <item index="2" class="java.lang.String" itemvalue="Python.views_base" />
+        <item index="3" class="java.lang.String" itemvalue="Python.import_goods_data" />
+        <item index="4" class="java.lang.String" itemvalue="Python.import_category_data" />
       </list>
     </recent_temporary>
   </component>
@@ -402,34 +815,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="manage.py@SxShop" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24665178" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.4978678" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35445204" sideWeight="0.4978678" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18154311" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23995535" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17324094" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3321918" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28767124" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@SxShop" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5188356" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="数据库" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.123667374" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="manage.py@SxShop" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24665178" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -467,112 +880,185 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/goods/adminx.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/base_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
-          <folding>
-            <element signature="e#42#55#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/adminx.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="64">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/utils/deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="64">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="490" column="0" lean-forward="false" selection-start-line="490" selection-start-column="0" selection-end-line="490" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/message/images/psbe_YSrHJKF.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="114" column="85" lean-forward="false" selection-start-line="114" selection-start-column="85" selection-end-line="114" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="365" column="0" lean-forward="false" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/sql/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="960" column="0" lean-forward="true" selection-start-line="943" selection-start-column="2" selection-end-line="960" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="882">
+          <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="298" column="6" lean-forward="false" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/84d71f23/f70a7158-fef3-455f-a347-9aeae7210b68/main.users_userprofile">
+    <entry file="das://table:/84d71f23/f70a7158-fef3-455f-a347-9aeae7210b68/main.trade_shoppingcart">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/84d71f23/f70a7158-fef3-455f-a347-9aeae7210b68/main.django_migrations">
+    <entry file="das://table:/84d71f23/f70a7158-fef3-455f-a347-9aeae7210b68/main.trade_ordergoods">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/db_tools/import_category_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/db_tools/data/category_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/84d71f23/f70a7158-fef3-455f-a347-9aeae7210b68/main.goods_goodscategory">
+    <entry file="das://table:/84d71f23/f70a7158-fef3-455f-a347-9aeae7210b68/main.trade_orderinfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/db_tools/data/product_data.py">
+    <entry file="file://$PROJECT_DIR$/apps/trade/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="385" column="19" lean-forward="false" selection-start-line="385" selection-start-column="19" selection-end-line="385" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="76" column="80" lean-forward="false" selection-start-line="76" selection-start-column="80" selection-end-line="76" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="84" column="84" lean-forward="false" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/message/images/psbe.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="122" column="36" lean-forward="false" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -583,43 +1069,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/db_tools/data/import_goods_data.py">
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/python视频教程/[全栈开发 ]Vue+Django REST framework 打造生鲜电商项目/project/t1nkuy/extra_apps/__init__.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/mixins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="1638">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="96" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/edit.py">
+    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="67" column="65" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="67" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/.tx/config">
+    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="116" column="57" lean-forward="false" selection-start-line="116" selection-start-column="57" selection-end-line="116" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="166" column="31" lean-forward="false" selection-start-line="166" selection-start-column="31" selection-end-line="166" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/weibo_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="65" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/trade/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/signals.py">
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/扩展app简介">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="64" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="0" column="1657" lean-forward="true" selection-start-line="0" selection-start-column="1657" selection-end-line="0" selection-end-column="1657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SxShop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding>
+            <element signature="e#640#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/social_core/tests/actions/actions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -628,246 +1208,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#55#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="290" column="6" lean-forward="false" selection-start-line="290" selection-start-column="6" selection-end-line="290" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/views_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding>
-            <element signature="e#24#66#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/status.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="das://table:/84d71f23/f70a7158-fef3-455f-a347-9aeae7210b68/main.users_userprofile">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/settings.py">
+    <entry file="file://$PROJECT_DIR$/tests/sentry_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="72">
+          <caret line="4" column="97" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="97" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/views.py">
+    <entry file="file://$PROJECT_DIR$/extra_apps/social_core/actions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="146" column="7" lean-forward="true" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/generics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="1692">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="106" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SxShop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        <state relative-caret-position="4446">
+          <caret line="248" column="1" lean-forward="false" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="65" column="4" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SxShop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#640#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#585#610#0" expanded="false" />
-            <element signature="e#2881#2925#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

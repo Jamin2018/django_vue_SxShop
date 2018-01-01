@@ -51,9 +51,18 @@ INSTALLED_APPS = [
     'rest_framework',
     #精确搜索
     'django_filters',
+    #跨域
+    'corsheaders',
+    #用户登录
+    'rest_framework.authtoken',
+    #第三方登录
+    'social_django',
+    #sentry线上日志监控
+    'raven.contrib.django.raven_compat',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -62,7 +71,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+CORS_ORIGIN_ALLOW_ALL = True
 ROOT_URLCONF = 'SxShop.urls'
 
 TEMPLATES = [
@@ -77,6 +86,10 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                #第三方登录
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -129,6 +142,17 @@ USE_L10N = True
 USE_TZ = False
 
 
+AUTHENTICATION_BACKENDS = (
+    #自定义设置jwt验证登录时候，可以匹配手机和密码（jwt认证接口默认匹配密码和账户）
+    'users.views.CustomBackend',
+
+    #第三方认证登录配置，微博、微信、QQ
+    'social_core.backends.weibo.WeiboOAuth2',
+    'social_core.backends.qq.QQOAuth2',
+    'social_core.backends.weixin.WeixinOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
@@ -148,7 +172,78 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 #     'PAGE_SIZE': 10,
 # }
 
-#精确搜索
+
 REST_FRAMEWORK = {
-    'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',)
+    #精确搜索
+    'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',),
+    #用户登录
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        #Json Web Token
+        # 后面改成单独设置，不然某些页面部分功能需要权限，部分不需要权限的时候，也要求用户登录
+        # 'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+    ),
+
+    #用户范围速度限制，防止爬虫
+    'DEFAULT_THROTTLE_CLASSES': (
+        'rest_framework.throttling.AnonRateThrottle',   #游客模式，通过IP限速
+        'rest_framework.throttling.UserRateThrottle'    #用户模式，通过token限速
+    ),
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '10/minute',     #游客模式，1分钟2次
+        'user': '20/minute'      #用户模式，1分钟3次
+    }
+}
+
+
+#JWT设置，过期时间等
+import datetime
+JWT_AUTH = {
+    'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),
+    'JWT_AUTH_HEADER_PREFIX': 'JWT',
+}
+
+
+#手机号码正则表达式
+REGEX_MOBILE = "^1[358]\d{9}$|^147\d{8}$|^176\d{8}$"
+
+
+#云片网设置
+APIKEY = 'a3ec808b0329b64ff181e1410ca92fbb'
+
+#DRF的缓存时间设置
+REST_FRAMEWORK_EXTENSIONS = {
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 5
+}
+
+# django redis缓存机制设置，跟上面的是两个缓存机制,
+# redis服务器貌似没和项目连接成功
+# 连接上了，不过keys不是密文
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+#第三方登录设置appkey和secret，根据开发平台的不同而不同
+SOCIAL_AUTH_WEIBO_KEY = '237999617'   #微博
+SOCIAL_AUTH_TWITTER_SECRET = '2c60B652a3a0c649d1bb12ab8bb86a24'  #微博
+
+# SOCIAL_AUTH_QQ_KEY = 'foobar'   #QQ
+# SOCIAL_AUTH_QQ_SECRET = 'bazqux'  #QQ
+#
+# SOCIAL_AUTH_WEIXIN_KEY = 'foobar'   #微信
+# SOCIAL_AUTH_WEIXIN_SECRET = 'bazqux'  #微信
+
+#第三方登录成功后跳转页面,这里跳转的主页
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/index/'
+
+#线上日志监控sentry设置
+RAVEN_CONFIG = {
+    'dsn': 'https://503fe4bb9096453b8fc0e20fd469e5eb:3a4a1a20aa944f588d61e1504f1aa1a1@sentry.io/265375',
 }

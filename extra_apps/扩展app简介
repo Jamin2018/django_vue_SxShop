@@ -1,0 +1,65 @@
+1.DjangoUeditor
+    主要功能是goods商品的详情页的富文本显示。
+
+            功能：自动生成API文档 /错了
+            网站：127.0.0.1/desc /错了
+
+   使用：
+        1.拷贝文件到extra_apps下
+        2.标记extra_apps文件夹：右键文件夹/标记目录为/Sources Root
+        3.setting.py中APPS加入'DjangoUeditor',
+        4.modles.py导入：from DjangoUeditor.models import UEditorField
+        5.不知道为什么要加入Goods表下：（因为主要功能是goods商品的详情页的富文本显示。）
+                goods_desc = UEditorField(verbose_name=u'内容', imagePath='goods/images/',width=1000,height=300,
+                                            filePath='goods/files/',default='')
+        6.就可以用了
+        7.目前还不会详细使用
+
+2. xadmin
+    主要功能：后台显示数据库数据，根据数据类型可以自动生成操作方法
+    原理：从数据库读取数据的 是数据库驱动型站点
+
+    使用：
+        1.拷贝文件到extra_apps下
+        2.标记extra_apps文件夹：右键文件夹/标记目录为/Sources Root
+        3.setting.py中APPS加入'xadmin',
+        4.想后台添加什么数据管理，就在该APP下添加一个adminx.py文件，并在该文件中初始化数据
+            如：import xadmin
+                from .models import UserFav, UserLeavingMessage, UserAddress
+
+
+                class UserFavAdmin(object):
+                    list_display = ['user', 'goods', "add_time"]
+
+
+                class UserLeavingMessageAdmin(object):
+                    list_display = ['user', 'message_type', "message", "add_time"]
+
+
+                class UserAddressAdmin(object):
+                    list_display = ["signer_name", "signer_mobile", "district", "address"]
+
+                xadmin.site.register(UserFav, UserFavAdmin)
+                xadmin.site.register(UserAddress, UserAddressAdmin)
+                xadmin.site.register(UserLeavingMessage, UserLeavingMessageAdmin)
+
+        5.想后台添加什么数据管理，就在该APP下添加一个apps.py文件，并在该文件中初始化数据
+            如：
+            from django.apps import AppConfig
+
+            class UserOperationConfig(AppConfig):
+                name = 'user_operation'
+                verbose_name = "用户操作管理"
+
+        6.在urls.py中配置URL
+
+            import xadmin
+
+            urlpatterns = [
+                # url(r'^admin/', admin.site.urls),
+                url(r'^xadmin/', xadmin.site.urls),
+                ]
+        7.通过 127.0.0.1/xadmin/ 访问，需要创建超级用户
+        8.创建超级用户
+        9.cmd中输入命令  python manage.py createsuperuser
+        10.输入账户密码后即可访问

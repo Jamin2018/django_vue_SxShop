@@ -38,6 +38,7 @@ class GoodsCategoryAdmin(object):
 class GoodsBrandAdmin(object):
     list_display = ["category", "image", "name", "desc"]
 
+    # 只获取一级类别
     def get_context(self):
         context = super(GoodsBrandAdmin, self).get_context()
         if 'form' in context:
